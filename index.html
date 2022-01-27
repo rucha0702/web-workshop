@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body id="body">
-    <div class="home">
+    <div id="home">
         <div class="home-bg"></div>
         <div class="nav">
             <div id="logo">
                 <img class="logo-img" src="./images/image 1 (Traced).png" alt="">
                <img src="./images/FINCEY.png" alt=""> </div>
             <ul class="nav-links">
-                <li class="nav-link"><a class="link-hover" href="#">Home</a></li>
+                <li class="nav-link"><a class="link-hover" href="#home">Home</a></li>
                 <li class="nav-link"><a class="link-hover" href="#about">About</a></li>
                 <li class="nav-link colorful"><a href="#">Hire me</a></li>
             </ul>
@@ -43,14 +43,6 @@
     </div>
 
     <div id="about">
-        <!-- <div class="about-links">
-            <ul class="about-top">
-                <li class="about-link"><a href="#">Dribble</a></li>
-                <li class="about-link"><a href="#">Behance</a></li>
-                <li class="about-link"><a href="#">Linkedin</a></li>
-                <li class="about-link"><a href="#">Medium</a></li>
-            </ul>
-        </div> -->
         <div class="about-content">
             <div class="profile">
                 <div class="profile-bg">
@@ -66,23 +58,14 @@
                 <div class="about-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus a nisl neque nunc. Lobortis risus non amet nec sagittis, dolor leo turpis.</div>
                 <div class="click"><a href="#" class="colorful">About </a></div>
             </div>
-        </div>
-        
+        </div>   
     </div>
-    <script>
-        const lg = document.getElementById("logo");
-        const body= document.getElementById("body");
 
-        lg.addEventListener("click",()=>{
-            if( body.style.background=="blue")
-            {
-                body.style.background="black"
-            }
-            else{
-                body.style.background="blue"
-            }
-           
-        })
-    </script>
+    <div id="hire-content">
+     
+        <!-- Vijay add code for last page here -->
+
+    </div>
+    
 </body>
 </html>

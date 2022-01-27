@@ -16,7 +16,7 @@ a{
 li{
     list-style:none;
 }
-.home{
+#home{
     height:100vh;
     position:relative;
 }
@@ -167,6 +167,15 @@ li{
 .click{
     margin:1rem 0;
 }
+
+/* last page starts */
+#hire-content{
+    height:100vh;
+    position:relative;
+}
+ /* add style here */
+
+/* last page ends */
 
 @media (max-width:768px){
     .about-content{
