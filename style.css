@@ -31,6 +31,10 @@ li{
     justify-content:space-between;
     width:100%;
     padding:16px 48px;
+    position:fixed;
+    top:0;
+    z-index: 1;
+    /* background:rgba(21,29,52,255); */
 }
 #logo{
     position:relative;
@@ -38,17 +42,36 @@ li{
     justify-content:space-between;
     align-items: center;
 }
+.logo-img{
+    margin:0 1rem;
+}
 .nav-links{
     display:flex;
 }
 
 .nav-link{
-    
+    font-weight: 600;
     margin:0.5rem;
     padding:10px;
 }
-.nav-link:hover{
-    background:linear-gradient(to right,rgb(243, 45, 78),orange,blue);
+.link-hover:hover{
+    color:rgb(235, 50, 179);
+}
+.colorful{
+    padding:8px 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    background:url('./images/colorful.png') no-repeat center center/cover;
+}
+.home-bg{
+    height:100%;
+    width:100%;
+    position:absolute;
+    z-index: -2;
+    background: linear-gradient(rgba(21,29,52,255), rgba(21,29,52, 255)) ,url('./images/home-bg.png') no-repeat center center/cover;
+    /* linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url(../images/background1.jpg) no-repeat center center fixed; */
+    opacity: 0.7;
+    background-blend-mode: multiply;
 }
 .home-text{
     margin:20px;
@@ -71,9 +94,9 @@ li{
     font-size:2rem;
     font-weight:600;
     /* color:linear-gradient(to right,rgb(197, 38, 64),yellow,green); */
-    background: -webkit-linear-gradient(rgb(207, 50, 76),yellow);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background: -webkit-linear-gradient(rgb(207, 50, 76),yellow); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     margin:5px;
 }
 .landing{
@@ -91,7 +114,7 @@ li{
     flex:0.25;
     text-align:center;
 }
-.about{
+#about{
     height:100vh;
     position:relative;
 }
@@ -143,4 +166,13 @@ li{
 }
 .click{
     margin:1rem 0;
+}
+
+@media (max-width:768px){
+    .about-content{
+        flex-direction:column;
+    }
+    .profile-img{
+        position:relative;
+    }
 }
