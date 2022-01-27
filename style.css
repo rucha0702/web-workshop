@@ -230,7 +230,7 @@ li {
   font-size: 1.7rem;
   border-radius: 15px;
   background: url("./images/home-bg.png") no-repeat center center/cover,
-    rgb(95, 95, 95);
+    rgba(255, 255, 255, 0.2);
   background-blend-mode: multiply, normal;
 }
 .domain img {
