@@ -177,13 +177,30 @@ li {
   position: relative;
 }
 .hire-content {
+  position:relative;
   display: flex;
   justify-content: space-around;
-  border-top: 1px solid #dadada;
-  border-bottom: 1px solid #dadada;
+  /* border-top: 1px solid #dadada; */
+  /* border-bottom: 1px solid #dadada; */
   padding: 100px 0;
 }
 
+.hire-content:before{
+  content:"";
+  position:absolute;
+  top:0;
+  height:1px;
+  width:85%;
+  background:#dadada;
+}
+.hire-content:after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  height:1px;
+  width:85%;
+  background:#dadada;
+}
 .hire-left {
   display: flex;
   flex-direction: column;
