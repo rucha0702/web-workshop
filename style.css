@@ -229,9 +229,21 @@ li {
   margin: 0.7rem;
   font-size: 1.7rem;
   border-radius: 15px;
-  background: url("./images/home-bg.png") no-repeat center center/cover,
-    rgba(255, 255, 255, 0.2);
   background-blend-mode: multiply, normal;
+  /* opacity:0.7; */
+  position:relative;
+}
+.domain:before{
+  content:"";
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background: url("./images/home-bg.png") no-repeat center center/cover,
+    rgba(255, 255, 255,0.2);
+  border-radius: 15px;
+  opacity:0.2;
 }
 .domain img {
   margin: 0 10px;
