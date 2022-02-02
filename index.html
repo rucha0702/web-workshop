@@ -1,100 +1,116 @@
-<!DOCTYPE HTML>
-<html >
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Registration Form</title> 
-    <link rel ="stylesheet" href ="style.css" type = "text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <div class = "main">
-    <div class ="register">
-        <h2>Register Here</h2>
-        <form id = "register" methods ="post">
-        <label>Name*</label>
-        <br>
-        <input type = "text" name ="fname"
-        id ="name" placeholder = "Enter Your Full Name">
-        <br><br>
-        <label>Admn No.*</label>
-        <br>
-        <input type = "text" name ="fname"
-        id ="number" placeholder = "Enter Your Admn No.">
-        <br><br>
-        <label>Email*</label>
-        <br>
-        <input type = "email" name="email"
-        id ="email" placeholder ="Enter Your Valid Email">
-        <br><br>
-        <label>Which club you are interested ?*</label>
-        <br>
-        &nbsp;&nbsp;&nbsp;
-        <input type ="radio" name="text" id="basic">
-        &nbsp;
-        <span id="basic">Developement</span>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <input type ="radio" name="text" id="basic">
-        &nbsp;
-        <span id="basic">Design</span>
-        <br>
-        &nbsp;&nbsp;&nbsp;
-        <input type ="radio" name="text" id="basic">
-        &nbsp;
-        <span id="basic">Programming</span>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type ="radio" name="text" id="basic">
-        &nbsp;
-        <span id="basic">ML</span>
-        <br><br>
-        <label>Skills*</label>
-        <br>
-        <input type = "text" name ="fname" size = 30
-        id ="skills" placeholder = "Eg Python,R,HTML,CSS,JS,etc.">
-        <br><br>
-        <label>Your level of technical developement is...*</label>
-        <br>
-        &nbsp;&nbsp;&nbsp;
-        <input type ="radio" name="text" id="basic">
-        &nbsp;
-        <span id="basic">Fundamental</span>
-        &nbsp;&nbsp;&nbsp;
-        <input type ="radio" name="text" id="basic">
-        &nbsp;
-        <span id="basic">Novice</span>
-        <br>
-        &nbsp;&nbsp;&nbsp;
-        <input type ="radio" name="text" id="basic">
-        &nbsp;
-        <span id="basic">Intermediate</span>
+<body id="body">
+    <div id="home">
+        <div class="home-bg"></div>
+        <div class="nav">
+            <div id="logo">
+                <img class="logo-img" src="./images/image 1 (Traced).png" alt="">
+               <img src="./images/FINCEY.png" alt="">
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link"><a class="link" href="#home">Home</a></li>
+                <li class="nav-link"><a class="link" href="#about">About</a></li>
+                <li class="nav-link colorful"><a href="#hire-content">Hire me</a></li>
+            </ul>
+        </div>
+        <div class="home-content">
+            <div class="home-highlight"><div class="home-highlight-text">I’m Mukesh Gaur </div></div>
+            <div class="home-text">My Work is your solution</div>
+        </div>
+        <div class="home-bottom">
+            <div class="landing-img">
+            <img width="350px" src="./images/Layer 1 1.png" alt="">
+            </div>
+            <div class="landing-bottom">
+                <ul class="landing">
+                    <li class="landing-link"><a href="https://www.instagram.com/immukeshgaur/" target="_blank"><img src="./images/instagram.png" width="45%" alt=""></a></li>
+                    <li class="landing-link"><a href="https://www.linkedin.com/in/mukesh-gaur-625186225/" target="_blank"><img src="./images/linkedin.png" alt=""></a></li>
+                    <li class="landing-link"><a href="https://twitter.com/itsmukeshgaur?t=1dgQhm40ieWiKGFFEGhilg&s=09" target="_blank"><img width="45%" src="./images/twitter.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-        &nbsp;&nbsp;&nbsp;
-        <input type ="radio" name="text" id="basic">
-        &nbsp;
-        <span id="basic">Advanced</span>
-        <br>
-        &nbsp;&nbsp;&nbsp;
-        <input type ="radio" name="text" id="basic">
-        &nbsp;
-        <span id="basic">Expert</span>
-        <br><br>
-        <label>Important Links*</label>
-        <br><br>
-        <input type = "text" name ="fname"
-        id ="linkdin" placeholder = "LinkedIn">
-        <br>
-        <input type = "text" name ="fname"
-        id ="twitter" placeholder = "Twitter" >
-        <br>
-        <input type = "text" name ="fname"
-        id ="github" placeholder = "GitHub" >
-        <br>
-        <input type = "text" name ="fname"
-        id ="website" placeholder = "Website/Devfolio" >
-        <br>
-        <input type = "text" name ="fname"
-        id ="instagram" placeholder = "Instagram" >
-        <br><br>
-        <input type = "submit" value ="Submit" name ="submit" Id = "submit">
-        </form>
-    </div><!--end regieter-->
-</div>
+    <div id="about">
+        <div class="about-content">
+            <div class="profile">
+                <div class="profile-bg">
+                    <img width="250px" src="./images/Rectangle 26.png" alt="">
+                </div>
+                <div class="profile-img">
+                    <img width="250px" src="./images/Mask Group.png" alt="">
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="about-head">Product and UX Designer from</div>
+                <div class="country">India</div>
+                <div class="about-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lectus a nisl neque nunc. Lobortis risus non amet nec sagittis, dolor leo turpis.</div>
+                <div class="click"><a href="#" class="colorful">About </a></div>
+            </div>
+        </div>   
+    </div>
+
+    <div id="hire-content">
+     
+        <div class="hire-content">
+            <div class="hire-left">
+              <div class="hire-head">
+                <h1>What do I offer?</h1>
+              </div>
+              <div class="hire-info">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
+                  nulla quasi unde libero recusandae excepturi, blanditiis dolores
+                  laudantium commodi? Vel cupiditate suscipit vitae sequi! Nemo
+                  repudiandae necessitatibus accusamus doloribus a!
+                </p>
+              </div>
+              <div class="hire-data">
+                <div class="data-1">
+                  <p>250+</p>
+                  <p class="bold">Clients</p>
+                </div>
+                <div class="data-2">
+                  <p>600+</p>
+                  <p class="bold">Projects</p>
+                </div>
+              </div>
+            </div>
+            <div class="hire-right">
+              <div class="domain">
+                <!-- <img class="domain-background" src="./images/home-bg.png" alt="" /> -->
+                <img src="./images/Figma.png" height="40px" width="40px" alt="" />
+                <p>Design</p>
+              </div>
+              <div class="domain">
+                <img src="./images/Web.png" height="40px" width="40px" alt="" />
+                <p>Web Development</p>
+              </div>
+              <div class="domain">
+                <img src="./images/Web.png" height="40px" width="40px" alt="" />
+                <p>Machine Learning</p>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <div class="footer">
+              <p>Let's Start By Saying "Hi"</p>
+              <a href="mailto:iammukeshgaur2004@gmail.com"><button>Email Me</button></a>
+            </div>
+          </footer>
+
+    </div>
+    
 </body>
 </html>
